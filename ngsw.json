@@ -1,0 +1,106 @@
+{
+  "configVersion": 1,
+  "timestamp": 1793086684233,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app-shell",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-B6mU5AHc.js",
+        "/chunk-BvsXpLf_.js",
+        "/chunk-CEq17llw.js",
+        "/chunk-CRve-rIV.js",
+        "/chunk-D0Fd_m4D.js",
+        "/chunk-DAoyassm.js",
+        "/favicon.svg",
+        "/index.html",
+        "/main-EKWMWZ53.js",
+        "/manifest.webmanifest",
+        "/styles-NKTCH2GV.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/icon.svg",
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "firestore-reads",
+      "patterns": [
+        "https:\\/\\/firestore\\.googleapis\\.com\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 200,
+      "maxAge": 86400000,
+      "timeoutMs": 3000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/chunk-B6mU5AHc.js": "d780c56ba1b4d6f12b3139996e7e49e4aa3e178c",
+    "/chunk-BvsXpLf_.js": "d6bcdf1e41ae766fead6fcdf2c1d54c5ce2b637c",
+    "/chunk-CEq17llw.js": "d2c5f266681ba2bef05ce8e9128b61cb364d41fc",
+    "/chunk-CRve-rIV.js": "b111dc0ce4bebba6657c72e4e6a8823bc8d6e7d0",
+    "/chunk-D0Fd_m4D.js": "893ba84293e7ed929456eb764fa4e1b7d7ee3782",
+    "/chunk-DAoyassm.js": "f200e4adf2c5a533f7461c185238cb0053df7aee",
+    "/favicon.svg": "814f4a3e33a7c26e7e009b6b91967d5e59b10c31",
+    "/icon.svg": "ca77f3f2bf0e145b64ace6c03105eb111673948d",
+    "/icons/icon-128x128.png": "59ed74d3e0a266f5d3b13f3a473bd8ac3c17b9bc",
+    "/icons/icon-144x144.png": "16c456cdd157da4ff0500954e436eb446cbad10f",
+    "/icons/icon-152x152.png": "df877dde68c80578e45861c91c3945490f1bb239",
+    "/icons/icon-192x192.png": "cd3f8b8f103e86767ea89d8d8b831cfc0048c1ff",
+    "/icons/icon-384x384.png": "b84580642b95fdec31ec35664057417084cf7221",
+    "/icons/icon-512x512.png": "ecf7da1ae332d7b4c80dacc8f2e630f20a5dad8b",
+    "/icons/icon-72x72.png": "36ddd4679f6f52a80cd06dbacee0e0ac637c1d48",
+    "/icons/icon-96x96.png": "f08d7fdae138e87f113fc3d387aecf2f75253764",
+    "/index.html": "e5fc6da45cda345c479a528ad273dd59d7b18106",
+    "/main-EKWMWZ53.js": "0b67efa85e7ff68d8eb1658ec631fc671eec2574",
+    "/manifest.webmanifest": "30f0c2b776f828e59eadc4a389b8b0633998dd86",
+    "/styles-NKTCH2GV.css": "84b61585b36a3d81b91853abf8f0cf439be3948d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
